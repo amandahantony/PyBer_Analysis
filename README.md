@@ -15,7 +15,10 @@ In this new analysis, we compared the three city types(urban, suburban and rural
 ![PyBer Pivot Table](Images/pivot_table_loc.png)
 
 3) A new dataframe was created using the resample() function to gather the total weekly fares from January to April in each city type (shown below).
+
 ![PyBer Resample](Images/resample_df.png)
+
+4)Using the new dataframe, a multi-line graph was created (shown below). The graph outlines the trend in total fares in each city type between the months of January and April. The peaks and dips in the line graphs indicate the total weekly fares. 
 
 ![PyBer Fare Summary](analysis/PyBer_fare_summary.png)
 
