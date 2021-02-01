@@ -12,7 +12,7 @@ In this new analysis, we compared the three city types(urban, suburban and rural
 
 2) A more specified analysis was conducted on the total weekly fares in the three city types between January and April. First, a dataframe was created to gather the total fare amount from each date in each city type, using the groupby() function. The dataframe was then converted to a pivot table, using the pivot() function, to show the total fare for the date and time of each ride in the city types. The loc function further narrowed the analysis to the rides between January 1st to April 29th (shown below). 
 
-![PyBer Pivot Table](Images/pyber_pivot_table.png)
+![PyBer Pivot Table](Images/pivot_table_loc.png)
 
 3) A new dataframe was created using the resample() function to gather the total weekly fares from January to April in each city type (shown below).
 ![PyBer Resample](Images/resample_df.png)
