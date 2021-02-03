@@ -12,11 +12,11 @@ In this new analysis, we compared the three city types(urban, suburban and rural
 
 2) A more specified analysis was conducted on the total weekly fares in the three city types between January and April. First, a dataframe was created to gather the total fare amount from each date in each city type, using the groupby() function. The dataframe was then converted to a pivot table, using the pivot() function, to show the total fare for the date and time of each ride in the city types. The loc function further narrowed the analysis to the rides between January 1st to April 29th (shown below). 
 
-![PyBer Pivot Table](Images/pivot_table_loc.png)
+![PyBer Resample](Images/resample_df.png)
 
 3) A new dataframe was created using the resample() function to gather the total weekly fares from January to April in each city type (shown below).
 
-![PyBer Resample](Images/resample_df.png)
+![PyBer Pivot Table](Images/pivot_table_loc.png)
 
 4)Using the new dataframe, a multi-line graph was created (shown below). The graph outlines the trend in total fares in each city type between the months of January and April. The peaks and dips in the line graphs indicate the total weekly fares. This graph provides meaningful information that can be used by PyBer in their business analysis. For example, in the 4 month span, the third week of February was the highest earning week in the urban and suburban city types. The highest earning week in the rural city type was the first week of April. As we know from the earlier dataframe, the urban city type accumulates the most total fares, and the rural city type accumulates the least. The total fares in rural areas ranged from $0 - $500, whereas the total fares in urban areas was between $1500 - $2500.
 
